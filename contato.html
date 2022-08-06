@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+   <style>
+    body{
+      background-image: linear-gradient(rgba(225, 239, 252, 0.651), rgba(225, 239, 252, 0.651) ),url(imagens/cadastro.jpg);
+      background-attachment: fixed;
+      background-size: cover;
+  }
+   </style>
+   <script src="relogio.js"></script>
+</head>
+<body>
+    <header>
+      <h1>Meu Site</h1>
+      <input type="text" id="rel"/>
+  </header>
+  <nav>
+      <a href="index.html" target="_blank">Página Inicial</a>
+    <a href="contato.html" target="_blank">Contato</a>
+    <a href="portfolio.html" target="_blank">Portfólio</a>
+    <a href="formacao.html" target="_blank">Formação Educacional</a>
+  </nav>
+    <div class="container">
+      <h1 id="pgContato">Contato</h1>  
+        <form>
+            <div class="container">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Nome</label>
+                <input type="text" class="form-control" id="exampleNome1" aria-describedby="emailHelp">
+              </div>
+              <div class="mb-3">
+                <label for="phone" class="form-label">Telefone</label>
+                <input type="tel" class="form-control" id="exampleContato1" placeholder="(xx)xxxxxxxxx" pattern="(00)000000000">
+                <small>Exemplo: (54)912345678</small>
+
+                <div class="mb-3">
+                  <label for="exampleInputEmail1" class="form-label">E-mail</label>
+                  <input type="text" class="form-control" id="exampleNome1" aria-describedby="emailHelp">
+                  <small>Exemplo: mateus@email.com</small>
+                </div>
+
+                <div class="mb-3">
+                  <label for="exampleInputTexto1" class="form-label">Mensagem</label>
+                  <textarea name="txtEmail" id="txtEmail"></textarea>
+                </div>
+              </div>
+            
+                <div class="botao">
+                  <button type="submit" class="btn btn-primary" id="btnEnviar">Enviar</button> <div>
+            </div>
+          </form>
+    
+   <script src="node_modules/jquery/dist/jquery.slim.min.js"></script> 
+   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

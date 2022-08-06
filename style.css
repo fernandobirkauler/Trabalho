@@ -1,0 +1,131 @@
+@charset "utf-8";
+*{
+    margin: 0;
+    padding: 0;
+}
+header > #rel {
+    margin: auto;
+}
+#rel{
+    text-align:center;
+    color:rgb(244, 248, 248);
+    font-weight:bold;
+    font-size:30px;
+    width:130px;
+    background-color:#000;
+    border: 0;
+}
+/*INDEX*/
+header{
+    background-color: black;
+}
+header > h1{
+    color: white;
+    text-align: center;
+    height: 75px;
+    margin-bottom: 0;
+}
+nav{
+    background-color: rgb(51, 50, 50);
+    text-align: right;
+}
+nav > a{
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 0 10px;
+}
+nav > a:hover{
+    color: rgb(190, 184, 184);
+    transition-duration: 0.4s;
+}
+/*.vo{
+    float: right;
+    width: 98vw;
+    font-size: 20px;
+}
+.pai{
+    padding: 10px;
+    width: 45vw;  
+    color: black;
+    float: right;
+}
+.filha1{
+    width: 45vw;
+    color: black;
+    float: left;
+    font-size: 20px;
+    padding-left: 120px;
+    text-align: justify;
+}
+.filha1 > h1{
+    width: 40vw; 
+    font-size: 25px;
+}
+/*.filha2{
+    width: 45vw;
+    color: black;
+    font-size: 20px;
+    float: right;
+    font-weight: 700;
+}*/
+/*INDEX*/
+/*FORMACAO EDUCACIONAL*/
+.tree {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3em;
+
+}
+/*FORMACAO EDUCACIONAL*/
+/*CONTATO*/
+h1#pgContato{
+    text-align: center;
+}
+form {
+    width: 50vw;
+    margin: auto;
+    background-color: rgb(208, 227, 243) ;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(39, 39, 39, 0.226);
+}
+div.botao{
+    text-align: center;
+}
+div.container{
+    margin: auto;
+    padding-bottom: 5px;
+}
+form >div.mb-3> input, div.mb-3 > label{
+    margin-top: 10px;
+    width: 100%;
+}
+div.mb-3 > textarea{
+    height: 95px;
+    width: 90%;
+    border: 0;
+    resize: none;
+}
+/*CONTATO*/
+@media screen and (min-width: 700px){
+    div.mb-3> input, div.mb-3 > label{
+        width: 90%;
+     }
+}
+
+@media screen and (max-width: 700px) {
+    div.mb-3 > textarea{
+        width: 97%;
+     }
+     .pai, .filha2{
+        width: 90%;
+        padding-left: 5px;
+     }
+     .filha1{
+        padding-left: 60px;
+        left: 0;
+        width:90%;
+     }
+     .filha1 > h1{
+        width: 300px;
+     }
+}
