@@ -17,4 +17,4 @@ function relogio(){
     let horas=hor+":"+min+":"+seg;
     document.getElementById("rel").value=horas;
 }
-  let tmp=setInterval(relogio,1000);
+let tmp=setInterval(relogio,1000);

@@ -39,36 +39,6 @@ nav > a:hover{
     color: rgb(190, 184, 184);
     transition-duration: 0.4s;
 }
-/*.vo{
-    float: right;
-    width: 98vw;
-    font-size: 20px;
-}
-.pai{
-    padding: 10px;
-    width: 45vw;  
-    color: black;
-    float: right;
-}
-.filha1{
-    width: 45vw;
-    color: black;
-    float: left;
-    font-size: 20px;
-    padding-left: 120px;
-    text-align: justify;
-}
-.filha1 > h1{
-    width: 40vw; 
-    font-size: 25px;
-}
-/*.filha2{
-    width: 45vw;
-    color: black;
-    font-size: 20px;
-    float: right;
-    font-weight: 700;
-}*/
 /*INDEX*/
 /*FORMACAO EDUCACIONAL*/
 .tree {
@@ -109,14 +79,14 @@ div.mb-3 > textarea{
 @media screen and (min-width: 700px){
     div.mb-3> input, div.mb-3 > label{
         width: 90%;
-     }
+    }
 }
 
 @media screen and (max-width: 700px) {
     div.mb-3 > textarea{
         width: 97%;
      }
-     .pai, .filha2{
+/*     .pai, .filha2{
         width: 90%;
         padding-left: 5px;
      }
@@ -127,5 +97,5 @@ div.mb-3 > textarea{
      }
      .filha1 > h1{
         width: 300px;
-     }
+     }*/
 }
